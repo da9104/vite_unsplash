@@ -6,6 +6,7 @@ dotenv.config(); // load env vars from .env
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base : "/vite_unsplash",
   define: {
     __VALUE__: `"${process.env.API}"` // wrapping in "" since it's a string
   },
